@@ -11,7 +11,7 @@ The sample editor and class were slightly edited by 'DigiDon' implement the IRic
 ##C++ 
 (CPPRichEdit folder)  
 All credits to 'Mike O'Neill'.  
-Taken from A Rich Edit Control That Displays Bitmaps and Other OLE Objects](https://www.codeproject.com/Articles/9541/A-Rich-Edit-Control-That-Displays-Bitmaps-and-Othe) from [codeproject.com](https://www.codeproject.com)
+Taken from [A Rich Edit Control That Displays Bitmaps and Other OLE Objects](https://www.codeproject.com/Articles/9541/A-Rich-Edit-Control-That-Displays-Bitmaps-and-Othe) from [codeproject.com](https://www.codeproject.com)
 
 
 ##AutoIt 
