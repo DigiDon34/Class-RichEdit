@@ -72,7 +72,6 @@ global
 	Menu, Zoom, Check, 100 `%
 	Menu, Zoom, Add, 75 `%, Zoom
 	Menu, Zoom, Add, 50 `%, Zoom
-	Menu, File, Add, &Test, TestLink
 	Menu, File, Add, &Open, FileOpen
 	Menu, File, Add, &Append, FileAppend
 	Menu, File, Add, &Insert, FileInsert
@@ -229,13 +228,6 @@ global
 	GuiControl, Focus, % RE2.HWND
 	GoSub, UpdateGui
 }
-
-TestLink:
-;TO BE TESTED FURTHER
-RE2.SetText("{\rtf1{\field{\*\fldinst{ HYPERLINK "" http://www.msn.com""}}{\fldrslt{ MSN} }}}", ["SELECTION"])
-RE2.SetText("{\rtf1\par}", ["SELECTION"])
-RE2.SetText("https://msdn.microsoft.com/en-us/library/windows/desktop/bb787954(v=vs.85).aspx", ["SELECTION"])
-return
 
 ; ======================================================================================================================
 ; End of auto-execute section
